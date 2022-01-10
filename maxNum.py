@@ -4,7 +4,7 @@
 #    - Return the largest number present in the given `arr` array.
 
 #      - e.g. given the following array:
-arr = [17, 5, 6];
+arr = [1, 17, 5, 6];
 
 #      - The following number should be returned:
 

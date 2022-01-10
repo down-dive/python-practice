@@ -14,6 +14,7 @@
 
 def evenNums(num):
     for number in range(num):
-        return number
+        if number % 2 == 0:
+            print(number)
 
-print(evenNums(10))
+evenNums(10)

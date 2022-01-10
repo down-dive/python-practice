@@ -17,7 +17,7 @@
 #       ```
 
 def logNums(num):
-    for number in num:
-        return number
+    for number in range(num):
+        print(number)
 
- print(logNums(10))
+logNums(10)

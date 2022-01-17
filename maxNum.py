@@ -4,19 +4,21 @@
 #    - Return the largest number present in the given `arr` array.
 
 #      - e.g. given the following array:
-arr = [1, 17, 5, 6];
+arr = [1, 17, 23, 5, 6];
 
 #      - The following number should be returned:
 
 #      17;
 
-def maxNum(list):
-    number = 0
+def max_num(list):
+    number = list[0]
+#   current_num = 0
     for i in list:
-        if i > number:
-            number = i
+        current_num = list[i]
+        if current_num > number:
+            number = current_num
         else:
             continue
-        print(i)
+        print(current_num)
 
-maxNum(arr)
+max_num(arr)
